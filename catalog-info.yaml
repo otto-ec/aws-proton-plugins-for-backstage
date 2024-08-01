@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aws-proton-plugins-for-backstage
+  description: Add a description here...
+  namespace: default
+  assetClassification:
+    confidentiality: C1_PUBLIC
+    integrity: I1_NO_INTEGRITY
+    availability: A1_NO_AVAILABILITY
+    personalData: D1_NON_USER_RELATED
+spec:
+  type: service
+  lifecycle: production # default
+  owner: group:si
+  dependencyOf:
+    - system:default/system_of_a_down
