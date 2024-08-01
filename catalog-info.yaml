@@ -10,8 +10,7 @@ metadata:
     availability: A1_NO_AVAILABILITY
     personalData: D1_NON_USER_RELATED
 spec:
-  type: system_of_a_down
+  type: service
   lifecycle: production # default
   owner: group:si
-  system:
-    - system:default/system_of_a_down
+  system: system_of_a_down
